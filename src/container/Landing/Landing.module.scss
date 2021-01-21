@@ -1,0 +1,87 @@
+@import "../../styles/reset";
+
+.column{
+    background-color: #363945;
+    padding: 0 10px;
+    
+    &__basis{
+        background-image: url('../../assets/phoneBg.jpg');
+        height: 390px;
+        overflow-y: scroll;
+        padding: 10px 0;
+        border-radius: 20px;
+        
+        &__item{
+            display: flex;
+            justify-content: space-between;
+            background-color:  #EFE1CE;
+            border-radius: 20px;
+            user-select: none;
+            margin: 20px 0;
+            padding: 5px 10px;
+            
+            &__checkbox{
+                cursor: pointer;
+                margin: 0 20px;
+                appearance: none;
+                box-shadow: 0px 0px 15px rgba(222, 222, 222, 0.5);
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-color: white;
+                
+            }
+            
+            &__checkbox_selected{
+                cursor: pointer;
+                margin: 0 20px;
+                appearance: none;
+                box-shadow: 0px 0px 15px rgba(222, 222, 222, 0.5);
+                width: 30px;
+                height: 30px;
+                border-radius: 50%;
+                background-image: url('../../icons/success.svg');
+                background-repeat: no-repeat;
+                background-size: 100% 100%;
+            }
+
+            &__inner{
+                width: 100%;
+                
+                &__child{
+                    display: flex;
+                    align-items: center;
+
+                    
+                    &__img{
+                      width: 30px;
+                      height: 30px;
+                      border-radius: 50%;
+                      background-color: #939597;  
+                    }
+    
+                    &__text_block{
+                        margin-left: 40px;
+                        font-size: 20px;
+                    }
+                }
+
+                &__bottom_column{
+                    display: none;
+                    padding: 20px 0 10px;
+                    text-align: center;
+                
+                    &__text_block{
+                        font-size: 16px;
+                        padding: 5px 0;
+                        color: #363945;
+                    }
+
+                }
+                &__bottom_column_block{
+                    display: block;
+                }
+            }
+        }
+    }
+}
