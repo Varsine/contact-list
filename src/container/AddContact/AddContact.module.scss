@@ -1,0 +1,70 @@
+.column{
+        display: flex;
+        justify-content: center;
+        user-select: none;
+
+    &__img{
+        position: absolute;
+        top: 0;
+        left: 43%;
+        width: 50px;
+        height: 50px;
+        border-radius: 50%;
+        background-color: #939597;
+    }
+    &__list{
+
+        &__file_input{
+            color: transparent;
+
+            &::-webkit-file-upload-button{
+                visibility: hidden;
+            }
+
+            &::before{
+                 content: url('../../icons/folder.svg');
+                 height: 24px;
+                 width: 24px;
+                 display: inline-block;
+                 padding-left: 15px;
+                 outline: none;
+                 white-space: nowrap;
+                 opacity: 0.8;                 
+                 cursor: pointer;
+                 font-size: 10pt;
+
+                 &:hover{
+                     opacity: 1;
+                 }
+            }
+
+            &:active::before{
+                opacity: 0.7;
+            }
+        }
+
+        &__icon{
+            width: 24px;
+            height: 24px;
+            color: #939597;
+        }
+        &__btn_parent{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 40px;
+            
+            &__child{
+                border: 1px solid transparent;
+                color: rgb(25, 26, 23);
+                border-radius: 20px;
+                padding: 5px 30px;
+                font-size: 18px;
+            }
+        }
+        &__error{
+            color: #E9897E;
+            padding-left: 20px;
+        }
+    }
+}

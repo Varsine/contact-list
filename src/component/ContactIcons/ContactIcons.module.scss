@@ -1,0 +1,21 @@
+.column{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px 50px 0;
+
+    &__icon{
+        height: 32px;
+        width: 32px;
+        color: #FDAC53;
+    }
+
+    &__one_phone{
+        padding: 3px;
+        background-color: #9BB7D4;
+    }
+    &__two_phone{
+        padding: 3px;
+        background-color: #A0DAA9;
+    }
+}

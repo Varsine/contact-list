@@ -1,0 +1,47 @@
+/** @format */
+
+@import "../../styles/reset";
+
+.app{
+    background-color: #363945;
+    color: #fff;
+    box-shadow: 0px 4px 20px #fff;
+
+    &__basis{
+        &__top_column{
+            text-align: center;
+            padding: 30px 0;
+
+            &__title{
+                font-size: 32px;
+            }
+            &__text_block{
+                font-size: 16px;
+                padding-top: 10px;
+            }
+        }
+        &__nav{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            padding: 5px 0;
+            min-height: 61px;
+            height: 100%;
+
+            &__title{
+                font-size: 20px;
+            }
+            &__navigation{
+                display: flex;
+                align-items: center;
+
+                &__add_icon{
+                    height: 30px;
+                    width: 30px;
+                    padding-left: 5px;
+                    cursor: pointer;
+                }
+            }
+        }
+    }
+}

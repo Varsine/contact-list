@@ -1,0 +1,23 @@
+@import "../../styles/reset";
+
+.column{
+    padding-right: 20px;
+    
+    &__icon{
+        color: #fff;
+        display: flex;
+        align-items: center;
+        cursor: pointer;
+    }
+}
+.column_open{
+    padding-left: 15px;
+    display: flex;
+    align-items: center;
+    background-color: #939597;
+    border-radius: 20px;
+
+    &__search{
+        padding: 0;
+    }
+}

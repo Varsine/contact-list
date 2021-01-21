@@ -1,0 +1,50 @@
+/** @format */
+
+$breakPoints: (
+  mobile: (
+    start: null,
+    end: "360px",
+  ),
+  mobile-large: (
+    start: "361px",
+    end: "767px",
+  ),
+  tablet: (
+    start: "768px",
+    end: "1200px",
+  ),
+  desktop: (
+    start: "1025px",
+    end: "1360px",
+  ),
+  desktop-large: (
+    start: "1361px",
+    end: null,
+  ),
+  until-mobile: (
+    start: null,
+    end: "800px",
+  ),
+  until-tablet: (
+    start: null,
+    end: "1180px",
+  ),
+  until-desktop: (
+    start: null,
+    end: "1360px",
+  ),
+);
+
+// text font-size
+
+$heading1: 48px;
+$heading2: 34px;
+$heading3: 24px;
+$intro-text: 20px;
+$body-text: 16px;
+$caption-text: 14px;
+$micro-text: 12px;
+
+/////  mixin  //////
+
+

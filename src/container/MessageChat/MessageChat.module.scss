@@ -1,0 +1,97 @@
+.column{
+
+    &__title{
+        position: absolute;
+        top: 70px;
+        left: 70px;
+        font-size: 20px;
+        color: #fff;
+        text-align: center;
+    }
+    &__message_list{
+        background-image: url('../../assets//messageBg.jpg');
+        background-size: cover;
+        position: absolute;
+        left: 30px;
+        right: 30px;
+        height: 400px;
+        overflow-y: scroll;
+        padding: 10px;
+        display: flex;
+        justify-content: flex-end;
+        flex-wrap: wrap;
+        border-radius: 20px;
+        box-shadow: 0px 0px 15px rgba(222, 222, 222, 0.5);
+
+
+        &__item{
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            max-width: 100%;
+            width: 100%;
+
+            &__phone_num{
+                box-shadow: 0px 0px 15px rgba(222, 222, 222, 0.5);
+                border-radius: 50%;
+                color: #fff;
+            }
+
+            &__text{
+                display: flex;
+                align-items: center;
+                max-width: 80%;
+                height: auto;
+                padding: 10px;
+                border-radius: 20px 20px 0 20px;
+                background-color: #fff;
+                margin: 15px 0;
+                box-shadow: 0px 0px 15px rgba(222, 222, 222, 0.5);
+                color: rgb(25, 26, 32);
+                font-size: 16px;
+                word-break: break-all;
+            }
+        }
+    }
+    &__bottom_column{
+        padding: 10px 5px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        box-shadow: 0px 4px 15px rgba(222, 222, 222, 0.5);
+
+        &__input{
+            box-shadow: 0px 0px 10px rgba(222, 222, 222, 0.5);
+            border-radius: 25px;
+            width: 80%;
+            
+        }
+
+        &__icons{
+            display: flex;
+            align-items: center;
+            
+            &__icon{
+                height: 24px;
+                width: 24px;
+                padding: 0 5px;
+                color: rgb(58,250,103),
+            }
+
+            &__one_phone{
+                padding: 1px;
+                background-color:cornflowerblue;
+            }
+
+            &__two_phone{
+                padding: 1px;
+                background-color:  chocolate ;
+            }
+        }
+    }
+
+}

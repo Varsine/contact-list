@@ -1,0 +1,21 @@
+@import "../../styles/reset";
+
+.column{
+    background-color: #363945;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    
+    &__basis{
+        padding: 15px 0;
+
+        &__btn{
+            padding: 5px 15px;
+            background-color: #259B9A;
+            border: 1px solid transparent;
+            color: wheat;
+            margin: 0 15px;
+            border-radius: 20px;
+        }
+    }
+}

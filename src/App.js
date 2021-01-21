@@ -1,17 +1,13 @@
 import React from "react"
-import {BrowserRouter as Router, Switch, Route} from "react-router-dom"
 
-import "./App.scss"
-
-function App() {
+import {Header, Landing, Footer} from './container/Index'
+const App = () => {
   return (
-    <Router>
-      <div>
-        <Switch>
-          <Route></Route>
-        </Switch>
-      </div>
-    </Router>
+    <div className='app'>
+      <Header />
+      <Landing />
+      <Footer/>
+    </div>
   )
 }
 

@@ -1,0 +1,35 @@
+@import "../styles/reset";
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.app{
+width: 420px;
+margin: 0 32%;
+border-radius: 20px;
+overflow: hidden;
+height: 100vh;
+position: relative;
+}
+
+.container {
+  margin: 0 auto;
+  padding: 0 10px;
+}
+
+::-webkit-scrollbar {
+  width:10px;
+}
+
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+  margin: 10px 0;
+}
+ 
+::-webkit-scrollbar-thumb {
+  background: rgb(161, 159, 159); 
+  border-radius: 10px;
+}
